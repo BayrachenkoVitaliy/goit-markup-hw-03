@@ -1,0 +1,267 @@
+
+:root{
+    --dark-background-maine:#2F303A;
+    --blue-maine-color: #2196F3;
+    --gray-maine-color: #757575;
+    --black-maine-color: #212121;
+    --praimary-fontfamily:'Roboto', sans-serif;
+    --secondery-fontfamily:'Raleway', sans-serif;
+    --light-maine-color:#FFFFFF;
+
+}
+body{
+    font-family: var(--praimary-fontfamily);
+    font-style: normal;
+    color: #212121;
+
+}
+.link  {
+    text-decoration: none;
+}
+.list {
+     list-style: none;
+}
+.text{
+    text-decoration: none;
+}
+
+/*---------------header----------------*/
+
+.header-link {
+    
+    width:  280px;
+}
+
+.logo-web{
+    font-family: var(--secondery-fontfamily);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--blue-maine-color) ;
+
+}
+.logo {
+    font-family: var(--secondery-fontfamily);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+
+}
+
+.header-link-items{
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+        color:var(--black-maine-color) ;
+}
+.header-link-items:hover,
+.header-link-items:focus
+ {
+    color:var(--blue-maine-color) ;
+}
+
+
+.header-contact-tel,
+.header-contact-email
+{font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--gray-maine-color);
+}
+
+
+.header-contact :hover,
+.header-contact :focus
+{
+    color: var(--blue-maine-color);
+}
+/*---------------heroi-----------------*/
+
+.heroi{    
+background:var(--dark-background-maine);
+}
+.heroi-header{
+    
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--light-maine-color);
+
+
+}
+
+
+.heroi-button{
+   
+width: 216px;
+height: 50px;
+background: var(--blue-maine-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+cursor: pointer;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--light-maine-color);
+
+}
+.heroi-button:hover,
+.heroi-button:focus
+{
+background: #188CE8;
+
+}
+
+-----------/*benefits*/-------------
+
+.benefits-header{
+    opacity: 0;
+}
+.benefits-items-heder{
+    
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--black-maine-color) ;
+}
+.benefits-items-text{
+ font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--gray-maine-color);
+}
+
+/*----------------------activity-----------------*/
+.activityd-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color:var(--black-maine-color) ;
+}
+
+/*------------------------------team --------------*/
+.team{
+    background-color: #F5F4FA;
+}
+.team-items{
+   
+}
+.team-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+
+letter-spacing: 0.03em;
+
+color:var(--black-maine-color) ;
+
+}
+
+.team-card{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+background-color: #FFFFFF;
+letter-spacing: 0.03em;
+color:var(--black-maine-color) ;
+}
+.team-card-text{
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+background-color: #FFFFFF;
+letter-spacing: 0.03em;
+color:var(--gray-maine-color);
+}
+/*------------footer-----*/
+
+.logo-footer{
+    font-family: var(--secondery-fontfamily);
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: var(--light-maine-color)
+}
+.foter-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+      }
+    .footer{ 
+        background-color:var(--dark-background-maine);
+    }
+    .footer-adress{
+       font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 3%;
+         color:  var(--light-maine-color); 
+    }
+    
+    
+            }
+         .footer-adress:hover,
+         .footer-adress:focus,
+          .foter-link:hover,
+          .foter-link:focus{
+            color: var(--blue-maine-color);
+          }
+
+
+/*----portfolio--------------------------*/
+
+.potrfolio-nav-button{
+ background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--black-maine-color) ;
+cursor: pointer;
+}
+
+.potrfolio-nav-button:hover,
+.potrfolio-nav-button:focus{
+    background-color:var(--blue-maine-color);
+    color:var(--light-maine-color);
+
+}
+
+.potrfolio-items-header{
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--black-maine-color) ;
+}
+.potrfolio-items-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--gray-maine-color);
+}
+
+
+
+
