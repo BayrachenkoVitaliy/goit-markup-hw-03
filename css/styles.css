@@ -187,17 +187,11 @@ background: #188CE8;
 
 }
 
------------/*benefits*/-------------
-
-
+/*-----------benefits-------------*/
 .benefits-header{
-   /* opacity: 0;*/
-    
-           /* position: absolute;
-            top: -9999px;
-            left: -9999px;*/
-       
+    opacity: 0;
 }
+
 
 .benefits-list{
     display: flex;
