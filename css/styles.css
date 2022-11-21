@@ -28,7 +28,7 @@ img{
     display: block;
 }
  .conteiner{
-    margin: 0px auto;
+    margin: 0 auto;
         width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -45,15 +45,14 @@ img{
 font-style: normal;
 }
 .section{
-    padding: 94px 0px;
+    padding: 94px 0;
 }
 
 /*---------------header----------------*/
 .header{
-padding: 25px 0px;
-    border-bottom: 1px;
-    border-color: #ECECEC;
-}
+
+    border-bottom: 1px solid #ECECEC;
+    }
 .header-conteiner{
     display: flex;
 
@@ -94,6 +93,9 @@ color: #000000;
 }
 
 .header-link-items{
+    display: block;
+    padding: 32px;
+
  font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -114,8 +116,6 @@ color: #000000;
 .header-contact-list:not(:last-child){
 margin-right: 50px;
 }
-
-
 .header-contact-tel,
 .header-contact-email
 {font-weight: 500;
@@ -169,7 +169,7 @@ border-radius: 4px;
 
 background: var(--blue-maine-color);
 
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -188,8 +188,13 @@ background: #188CE8;
 }
 
 /*-----------benefits-------------*/
+.benefits{
+padding-bottom: 0;
+}
+    
+
 .benefits-header{
-    opacity: 0;
+    visibility: hidden;
 }
 
 
@@ -199,6 +204,7 @@ background: #188CE8;
 }
 .benefits-items{
     margin-left: 30px;
+    width: 270px;
 }
 .benefits-items-heder{
 margin-bottom: 10px;
@@ -212,23 +218,23 @@ color:var(--black-maine-color) ;
 
 }
 .benefits-items-text{
+    text-align: center;
+
  font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--gray-maine-color);
+
 }
 
 /*----------------------activity-----------------*/
 
-.activity-conteiner{
-    display: flex;
-    flex-direction: column;
-}
+
 .activityd-header {
     margin-bottom: 50px;
-        /*text-align: center;*/
-    align-self: center;
+        text-align: center;
+    
 
     font-weight: 700;
     font-size: 36px;
@@ -245,10 +251,6 @@ color: var(--gray-maine-color);
 .activity-items{
     margin-left: 30px;
 }
-.activity-img{
-    flex-basis: calc((100%-3*30)/3);
-}
-
 
 /*------------------------------team --------------*/
 .team{
@@ -263,9 +265,8 @@ color: var(--gray-maine-color);
     margin-left: 30px;
    
 }
-.team-img{
-    margin-bottom: 30px;
-}
+
+
 .team-header{
 margin-bottom: 50px;
 text-align: center;
@@ -276,9 +277,16 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 color:var(--black-maine-color) ;
 }
+.team-items-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .team-card{
 margin-bottom: 10px;
+text-align: center;
 
 font-weight: 500;
 font-size: 16px;
@@ -288,6 +296,7 @@ color:var(--black-maine-color) ;
 
 }
 .team-card-text{
+    text-align: center;
  font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
@@ -296,7 +305,7 @@ color:var(--gray-maine-color);
 }
 /*------------footer-----*/
 .footer {
-padding: 60px 0px;
+padding: 60px 0;
 background-color: var(--dark-background-maine);
 
 }
@@ -369,7 +378,7 @@ line-height: 1.63;
 letter-spacing: 0.03em;
 color:var(--black-maine-color) ;
 cursor: pointer;
-box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+box-shadow:(0 4px 4px rgba(0, 0, 0, 0.25));
 border-radius: 4%;
 }
 
