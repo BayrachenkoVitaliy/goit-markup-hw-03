@@ -436,7 +436,7 @@ color: var(--gray-maine-color);
 }
 .portfolio-list-text{
     
-    padding: 24px;
+    padding: 20px 24px;
     border-bottom: 1px;
     border-left: 1px;
     border-right: 1px;
